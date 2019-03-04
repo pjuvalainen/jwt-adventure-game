@@ -1,0 +1,224 @@
+body{
+    cursor: context-menu;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(space-game-background-4.png);
+    background-repeat: no-repeat;
+    background-position: center top; 
+    height: 100%;
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.container {
+    border: 3px solid #333;
+    border-radius: 5px;
+    background-color: #708090;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: radial-gradient(#dad4d4,#c0b2b2, #807070);
+}
+
+.header {
+    margin: 5px;
+}
+
+.header img {
+    width:100%;
+    max-width: 468px; 
+}
+
+.header h1{
+    color: snow;
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+.menu {
+    margin: 5px;
+}
+
+.menu h2 {
+    color: snow;
+    font-size: 1.5rem;
+}
+
+.control {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 1px;
+}
+
+#bt1 {
+   }
+
+.buttons {
+    background-color:#d46e8d;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin: 3px;   
+}
+
+.buttons2 {
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #306393;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #1b3752;
+}
+
+.buttons2:hover {background-color: #d46e8d}
+
+.buttons2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttons:hover {
+    background-color:#1b3752;
+    color: white;
+}
+
+.content {       
+   height: 100%;
+   border: 3px solid #333;
+   border-radius: 5px;
+   background-color: snow;    
+}
+
+.gamearea {
+   display: grid;
+   height: 100%;
+}
+
+.gamearea div {
+   display:inline-block;
+   vertical-align:top;
+   margin: 1px;
+   padding-top: 80%;
+}
+
+#tervehdys {
+   font-size: 2rem;
+   text-align: center;
+}
+
+.aside {
+    height: 100%;
+    border: 3px solid #333;
+    border-radius: 5px;
+    background-color: snow;
+}
+
+.aside h2 {
+    margin: 5px;
+}
+
+.aside p {
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+.aside .box {
+    margin: 5px;
+    padding: 7.5px;
+    border: 3px dotted #333;
+    background-color: snow;
+    
+}
+
+.aside .playerText {
+}
+
+.footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 3px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    background-color: snow;
+    font-size: 0.8rem;
+}
+
+#playerName {
+    margin: 0px;
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .menu h2 {
+    font-size: 1rem;
+   }
+    
+    p  {
+        font-size: 0.7rem;
+    }
+    
+    .buttons , .buttons2 {
+        font-size: 0.7rem;
+    }
+    
+    .menu {
+    }
+    
+    .content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    
+    .aside {
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+   
+   .footer {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+   }
+   
+   .buttons2 {
+      padding: 20px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    .header h1{
+    font-size: 1rem;
+   }
+}       
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    .header h1{
+    font-size: 1rem;
+   }
+}
